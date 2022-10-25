@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <style>
+        *{
+            background-color: #845883;
+        }
+        input[type=email]{
+            width: 60%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid blueviolet;
+            border-radius: 4px;
+        }
+        input[type=password]{
+            width: 60%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid blueviolet;
+            border-radius: 4px;
+        }
+        input[type=submit] {
+  width: 10%;
+  background-color: #FF5A09;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+        }
+        div {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+    </style>
+</head>
+<body>
+    <div>
+    <form action="/action_page.php">
+        <caption><strong>Login your account</strong></caption><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <input type="submit" value="submit">
+    </form>
+    </div>
+</body>
+</html>
+
+
